@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(93, 190, 97);
+    margin-top: 55px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+  }
+  
+  
+  h2 {
+    color:rgb(109, 55, 55);
+    text-align: center;
+    font: bolder;
+    font-style: italic;
+
+  }
+
+
+  nav a {
+      font-size: 18px;
+      color: white;
+      font-style: unset;
+      
+
+      
+  }
+  .classh2 {
+      color: chocolate;
+      font-size: 40px;
+  }
+
+  .classh2:hover{
+    color: coral;
+    font-size: 40x;
+    animation-name: h1;
+    position: relative;
+    animation-duration: 2s;
+  }
+  
+
+  h1 {
+    text-align:center;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+ .classh1 {
+     color: black;
+     font-size: 20px;
+     }
+
+ .classh1:hover {
+    color: rgb(136, 72, 26);
+    font-size: 22px;
+  
+ }
+
+
+ .classnava {
+     color:white;
+     font-size: 22px;
+ }
+
+ 
+ .classnava a:hover {
+    color:yellow;
+    font-size: 25px;
+ }
+
+    @keyframes h1 { 
+    from {font-size: 40px;} 
+    to {font-size: 55px;} 
+    
+ }
+
+    @keyframes h2 { 
+    from {font-size: 20px;} 
+    to {font-size: 32px;} 
+    
+ }
